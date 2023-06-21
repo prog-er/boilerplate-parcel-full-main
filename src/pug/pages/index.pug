@@ -1,0 +1,13 @@
+extends ../template/page
+include ../components/body
+include ../components/content-title
+
+block variables
+  - const pageTitle = 'windbnb';
+
+block main
+  main  
+    +content-title
+    +body
+
+    
